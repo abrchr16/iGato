@@ -1,0 +1,230 @@
+body {
+    background-color: white;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 47px;
+    font-weight: 500;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.911);
+    border-bottom: 1px rgb(99, 99, 99) solid;
+}
+
+.sesion {
+    padding: 1px 4px 4px 4px;
+    margin: 16px 25px 15px 25px;
+    text-decoration: none;
+    border: 2px rgb(255, 255, 255) solid;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    transition-duration: 0.1s;
+}
+
+.sesion:hover {
+    border: 2px rgba(255, 255, 255, 0.5) solid;
+    transition-duration: 0.1s;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+.Cat {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-position: 15%;
+    width: auto;
+    height: 400px;
+    background-image: url(../Img/icat0.jpg);
+    background-repeat: no-repeat, repeat;
+    background-color: white;
+    background-size: auto 400px;
+}
+
+.te {
+    padding-left: 510px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.abajo {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px rgb(99, 99, 99) solid;
+    background-color: #3e4451;
+    padding-bottom: 25px;
+}
+
+.boton2 {
+    background: linear-gradient(#dc3535, #811f1f);
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: x-large;
+    border: #b32929;
+}
+
+.boton2:hover {
+    background: linear-gradient(#b62b2b, #5f1717);
+    color: white;
+}
+
+footer {
+    border-top: 1px rgb(99, 99, 99) solid;
+    background-color: rgb(29, 29, 29);
+    padding: 25px;
+    color: black;
+}
+
+.te-sub {
+    text-decoration: underline;
+}
+
+.Pre {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Pre-te {
+    padding-top: 100px;
+}
+
+.iniciar {
+    padding: 0px 4px 4px 4px;
+    text-decoration: none;
+    border: 2px rgb(0, 0, 0) solid;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    transition-duration: 0.1s;
+    margin-left: 20px;
+}
+
+.iniciar:hover {
+    border: 2px rgb(102, 102, 102) solid;
+    transition-duration: 0.1s;
+    background-color: rgba(71, 71, 71, 0.11)
+}
+
+.Te-G {
+    color: rgb(80, 80, 80);
+}
+
+.Te-C {
+    font-weight: 400;
+}
+
+.logo2 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 0px 10px 0px 0px;
+    text-decoration: none;
+    font-size: 47px;
+    font-weight: 500;
+    color: white;
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.911);
+    border-bottom: 1px rgb(99, 99, 99) solid;
+}
+
+#nnav {
+    display: none;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.navegacion {
+    display: flex;
+    background-color: #3e4451;
+    flex-direction: column;
+    visibility: collapse;
+}
+
+.navegacion:checked ~ .nnav {
+    visibility: visible;
+}
+
+/* Hide the toggle checkbox */
+#expand-toggle {
+    display: none;
+  }
+  
+  /* Hide expandable content by default */
+  .expandable {
+    display: flex;
+    justify-content: center;
+    visibility: collapse;
+    background-color: rgba(0, 0, 0, 0.911);
+    height: auto;
+    width: 150px;
+  }
+  
+  /* Style the button */
+  #expand-btn {
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    margin-top: -10px;
+    padding: 0px 15px 0px 15px;
+  }
+  
+  #expand-btn:hover {
+    background-color: rgb(102, 102, 102);
+    transition-duration: 0.1s;
+  }
+
+
+  /* Show hidden content when the checkbox is checked */
+  #expand-toggle:checked ~ * .expandable {
+    visibility: visible;
+  }
+  
+  /* Style the button when the checkbox is checked */
+  #expand-toggle:checked ~ #expand-btn {
+    background-color: #ccc;
+  }
+  
+  .Navlist a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    border-bottom: 1px rgb(99, 99, 99) solid;
+    color: rgb(255, 255, 255);
+    height: 60px;
+    width: 150px;
+    font-weight: 500;
+    padding: 15px 0px 0px 45px;
+    margin-top: -1px;
+    }
+
+  .Navlist a:hover {
+    background-color: rgb(102, 102, 102);
+    transition-duration: 0.1s;
+  }
+
+  .navfix {
+    display: flex;
+    justify-content: flex-start;
+  }
